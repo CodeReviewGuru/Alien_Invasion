@@ -16,6 +16,7 @@ def run_game():
     ship = Ship(ai_settings, screen)
     bullets = Group()
     aliens = Group()
+    print("hello")
 
     #Create the fleet of aliens
     gf.create_fleet(ai_settings, screen, ship, aliens)
